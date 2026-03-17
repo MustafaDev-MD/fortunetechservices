@@ -56,11 +56,10 @@
                 <div class="footer-widget-box">
                     <h2 class="title">Quick Links</h2>
                     <ul class="footer-nav-list">
-                        <li><a href="{{ route('services.digital-growth') }}">Digital Growth</a></li>
-                        <li><a href="{{ route('blog') }}">Blog</a></li>
-                        <li><a href="{{ route('careers') }}">Careers</a></li>
-                        <li><a href="{{ route('faqs') }}">FAQ's</a></li>
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a href="{{ route('home') }}">Overview</a></li>
+                        <li><a href="{{ route('services') }}">Solutions</a></li>
+                        <li><a href="{{ route('faqs') }}">Help</a></li>
+                        <li><a href="{{ route('contact') }}">Connect</a></li>
                     </ul>
                 </div>
 
@@ -68,11 +67,21 @@
                 <div class="footer-widget-box">
                     <h2 class="title">Social</h2>
                     <ul class="footer-nav-list">
-                        <li><a href="#" target="_blank">Facebook</a></li>
-                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li>
+                            <a href="https://www.facebook.com/FortuneTechServices"
+                                target="_blank">
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/fortunetechservices"
+                                target="_blank">
+                                Instagram
+                            </a>
+                        </li>
                         <li>
                             <a href="https://www.linkedin.com/company/fortune-tech-services"
-                               target="_blank">
+                                target="_blank">
                                 Linkedin
                             </a>
                         </li>
@@ -83,7 +92,8 @@
                 <div class="footer-widget-box">
                     <h2 class="title">Office</h2>
                     <ul class="footer-nav-list">
-                        <li><a href="#">UAE</a></li>
+                        <li><a href="javascript:void(0)">UAE</a></li>
+                        <li><a href="javascript:void(0)">Pakistan</a></li>
                     </ul>
                 </div>
 

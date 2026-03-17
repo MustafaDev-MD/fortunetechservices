@@ -26,7 +26,8 @@
     --black-2: #999999;
     --white: #FFFFFF;
     --white-2: #999999;
-    --action: #0039AD;
+    /*--action: #003EBA;*/
+    --action: #005aff;
 }
 
 :root .dark {
@@ -131,6 +132,7 @@
 body {
     font-family: Grift-Regular;
     line-height: 1;
+    letter-spacing: 0.2px;
 }
 
 html {
@@ -149,39 +151,37 @@ h6 {
     line-height: 1.22;
     font-family: var(--font_instrumentsans);
     font-weight: 500;
+    letter-spacing: 0.2px;
 }
 
 ul,
 ol {
     padding: 0;
     margin: 0;
+    letter-spacing: 0.2px;
 }
 
 li {
     list-style: none;
+    letter-spacing: 0.2px;
 }
 
 a {
     text-decoration: none;
     transition: all 0.3s;
     color: inherit;
+    letter-spacing: 0.2px;
 }
 
 a:hover {
     color: var(--primary);
-}
-
-.title a{
-    color: var(--action);
-}
-
-.title a:hover{
-    color: var(--white);
+    letter-spacing: 0.2px;
 }
 
 button {
     background-color: transparent;
     border: 0;
+    letter-spacing: 0.2px;
 }
 
 p {
@@ -191,11 +191,12 @@ p {
     font-size: 22px;
     line-height: 30px;
     color: var(--secondary);
+    letter-spacing: 0.2px;
 }
 
 /*custome Updates*/
 .feature-list b {
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
 }
 div#accordionExample {
     margin-top: 60px;
@@ -212,10 +213,10 @@ h2.section-title.font-sequelsans-romanbody {
 }
 h2.section-title.font-instrumentsans-medium.char-anim {
     font-family: 'Bebas Neue';
-    letter-spacing: 2px;
+    letter-spacing: 0.2px;
 }
 span.number {
-    color: #003eba !important;
+    color: #003eba!important;
 }
 
 
@@ -223,7 +224,7 @@ span.number {
     color:#003eba !important;
 }
 .section-content img {
-    width: 60%;
+    width: 20%;
 }
 h2.section-title.font-instrumentsans-medium.char-anim {
     /* position: relative; */
@@ -1131,7 +1132,8 @@ h2.section-title.font-instrumentsans-medium.char-anim {
 .section-title.font-instrumentsans-medium {
     font-family: var(Helvena Web);
     font-weight: 500;
-    line-height: 0.9;
+    /*line-height: 0.9;*/
+    line-height: 1;
 }
 
 .section-title.font-sequelsans-romanbody {
@@ -1167,7 +1169,7 @@ h2.section-title.font-instrumentsans-medium.char-anim {
     font-family: var(--font_bdogrotesk);
     font-weight: 400;
     line-height: 0.95;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1579,7 +1581,8 @@ h2.section-title.font-instrumentsans-medium.char-anim {
     font-size: 495px;
     font-weight: 600;
     line-height: 0.8;
-    /*letter-spacing: -0.02em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1587,10 +1590,6 @@ h2.section-title.font-instrumentsans-medium.char-anim {
 @media only screen and (max-width: 1919px) {
     .page-title-wrapper .page-title {
         font-size: 385px;
-    }
-
-    .form-area-contact-page .page-title{
-        font-size: 370px;
     }
 }
 
@@ -2174,7 +2173,7 @@ section {
 }
 
 .rr-btn-group span {
-    letter-spacing: 0;
+    letter-spacing: 0.2px;
 }
 
 .rr-btn-group:hover .b {
@@ -2230,11 +2229,7 @@ section {
     display: inline-flex;
     align-items: center;
     text-transform: capitalize;
-    letter-spacing: -0.02em;
-}
-
-.rr-btn-light {
-    background-color: var(--white);
+    letter-spacing: 0.2px;
 }
 
 .dark .rr-btn {
@@ -2269,11 +2264,6 @@ section {
     color: #000000;
 }
 
-.dark .rr-btn-light:hover .btn-wrap .text-two,
-.dark .rr-btn-light:focus .btn-wrap .text-two {
-    color: var(--white);
-}
-
 .rr-btn:after {
     display: block;
     clear: both;
@@ -2293,11 +2283,6 @@ section {
 .dark .rr-btn::before {
     background-color: #ffffff;
     color: black !important;
-}
-
-.dark .rr-btn-light::before {
-    background-color: #003eba;
-    color: var(--white) !important;
 }
 
 .rr-btn .btn-wrap {
@@ -2324,10 +2309,6 @@ section {
 .dark .rr-btn .btn-wrap .text-one {
    color: #ffffff;
 }
-
-.dark .rr-btn-light .btn-wrap .text-one {
-    color: var(--black);
- }
 
 .rr-btn .btn-wrap .text-two {
     position: absolute;
@@ -2396,7 +2377,7 @@ section {
 .rr-btn-underline {
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0;
+    letter-spacing: 0.2px;
     color: var(--primary);
     text-transform: uppercase;
     position: relative;
@@ -2920,7 +2901,7 @@ section {
 }
 
 .main-menu ul.dp-menu li a:hover {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
 }
 
 .main-menu ul.dp-menu li a:after {
@@ -3787,7 +3768,8 @@ section {
     line-height: 20px;
     text-align: center;
     white-space: nowrap;
-    letter-spacing: -0.01em;
+    /* letter-spacing: -0.01em; */
+    letter-spacing: 0.2px;
     -webkit-transition: opacity 0.4s, -webkit-transform 0.3s;
     transition: opacity 0.4s, -webkit-transform 0.3s;
     -o-transition: opacity 0.4s, -o-transform 0.3s;
@@ -4133,7 +4115,7 @@ section {
     display: inline-block;
     text-transform: uppercase;
     color: var(--primary);
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
 }
 
 /* hero area style  */
@@ -4405,7 +4387,7 @@ section {
     font-size: 920px;
     font-weight: 700;
     line-height: 0.477;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
     color: var(--theme);
     display: flex;
@@ -4527,7 +4509,8 @@ video.video-area {
     font-size: 30px;
     font-weight: 400;
     line-height: 1.26;
-    letter-spacing: -0.02em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     max-width: 950px;
     color: var(--primary);
     margin-inline: auto;
@@ -4719,7 +4702,7 @@ video.video-area {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     padding: 10px 20px;
     display: inline-block;
     background-color: white;
@@ -4742,7 +4725,7 @@ video.video-area {
     font-size: 24px;
     font-weight: 500;
     line-height: 1.25;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -4761,7 +4744,7 @@ video.video-area {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     color: #999999;
     display: flex;
     align-items: center;
@@ -4870,8 +4853,7 @@ video.video-area {
 }
 
 .services-wrapper-1 .service-box .content .title a:hover {
-    /* color: var(--secondary); */
-    color: var(--white);
+    color: var(--secondary);
 }
 
 .services-wrapper-1 .service-box .service-list {
@@ -5759,7 +5741,7 @@ only screen and (max-width: 1399px) {
     line-height: 70px;
     font-family: var(--font_thunder);
     text-transform: uppercase;
-    letter-spacing: 0px;
+    letter-spacing: 0.2px;
     color: var(--black);
 }
 
@@ -5796,7 +5778,7 @@ only screen and (max-width: 1399px) {
     font-size: 350px;
     font-weight: 500;
     line-height: 0.8;
-    letter-spacing: -8px;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
     font-family: var(--font_thunder);
     color: var(--black);
@@ -5805,42 +5787,42 @@ only screen and (max-width: 1399px) {
 @media only screen and (max-width: 1919px) {
     .hero-area-4 .section-content .title-wrapper .section-title {
         font-size: 250px;
-        letter-spacing: 0px;
+        letter-spacing: 0.2px;
     }
 }
 
 @media only screen and (max-width: 1399px) {
     .hero-area-4 .section-content .title-wrapper .section-title {
         font-size: 220px;
-        letter-spacing: 0px;
+        letter-spacing: 0.2px;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .hero-area-4 .section-content .title-wrapper .section-title {
         font-size: 180px;
-        letter-spacing: 0px;
+        letter-spacing: 0.2px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .hero-area-4 .section-content .title-wrapper .section-title {
         font-size: 140px;
-        letter-spacing: 0px;
+        letter-spacing: 0.2px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .hero-area-4 .section-content .title-wrapper .section-title {
         font-size: 100px;
-        letter-spacing: 0px;
+        letter-spacing: 0.2px;
     }
 }
 
 @media (max-width: 575px) {
     .hero-area-4 .section-content .title-wrapper .section-title {
         font-size: 80px;
-        letter-spacing: 0px;
+        letter-spacing: 0.2px;
     }
 }
 
@@ -6050,7 +6032,7 @@ only screen and (max-width: 1399px) {
 }
 
 .featured-work-area-2-inner .section-title {
-    letter-spacing: 0;
+    letter-spacing: 0.2px;
     font-size: 80px;
     font-weight: 400;
 }
@@ -6287,7 +6269,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.6px;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
 }
 
@@ -7160,7 +7142,7 @@ only screen and (max-width: 1919px) {
     font-size: 350px;
     font-weight: 400;
     line-height: 0.7;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     display: inline-block;
     color: var(--primary);
     margin-top: 80px;
@@ -7363,7 +7345,7 @@ only screen and (max-width: 1919px) {
     display: inline-block;
     text-transform: uppercase;
     color: var(--primary);
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
 }
 
 @media (min-width: 1920px) {
@@ -7386,7 +7368,7 @@ only screen and (max-width: 1919px) {
     font-size: 200px;
     font-weight: 310;
     line-height: 0.85;
-    letter-spacing: -0.09em;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
     margin-left: 60px;
 }
@@ -7549,7 +7531,7 @@ only screen and (max-width: 1919px) {
     font-size: 18px;
     font-weight: 310;
     line-height: 20px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     max-width: 211px;
     color: var(--primary);
 }
@@ -7563,7 +7545,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: var(--primary);
     margin-top: 474px;
 }
@@ -7669,7 +7651,7 @@ only screen and (max-width: 1919px) {
     font-size: 500px;
     font-weight: 315;
     line-height: 0.71;
-    letter-spacing: -0.1em;
+    letter-spacing: 0.2px;
     font-family: var(--font_sequelsansmediumbody);
     white-space: nowrap;
     text-transform: uppercase;
@@ -7852,7 +7834,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 315;
     line-height: 27px;
-    letter-spacing: -0.1em;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
     color: var(--primary);
 }
@@ -7967,7 +7949,7 @@ only screen and (max-width: 1919px) {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     padding: 10px 20px;
     display: inline-block;
     background-color: white;
@@ -7990,7 +7972,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.35;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     font-family: var(--font_sequelsansmediumbody);
 }
 
@@ -8140,7 +8122,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: rgba(252, 247, 243, 0.3);
 }
 
@@ -8314,7 +8296,7 @@ only screen and (max-width: 1919px) {
     font-size: 110px;
     font-weight: 310;
     line-height: 0.9;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: #FCF7F3;
 }
 
@@ -8493,7 +8475,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 310;
     line-height: 27px;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: #FCF7F3;
 }
 
@@ -8734,7 +8716,7 @@ only screen and (max-width: 1919px) {
     font-size: 200px;
     font-weight: 310;
     line-height: 0.85;
-    letter-spacing: -0.09em;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
     white-space: nowrap;
 }
@@ -8811,7 +8793,7 @@ only screen and (max-width: 1919px) {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     padding: 10px 20px;
     display: inline-block;
     background-color: var(--theme);
@@ -8910,7 +8892,7 @@ only screen and (max-width: 1919px) {
     font-size: 140px;
     font-weight: 310;
     line-height: 0.85;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
     max-width: 1240px;
 }
 
@@ -9301,7 +9283,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -9435,7 +9417,7 @@ only screen and (max-width: 1919px) {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     padding: 10px 20px;
     display: inline-block;
     background-color: white;
@@ -9458,7 +9440,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.08em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -9539,7 +9521,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: var(--primary);
 }
 
@@ -9610,7 +9592,7 @@ only screen and (max-width: 1919px) {
     font-size: 265px;
     font-weight: 310;
     line-height: 0.65;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: var(--primary);
 }
 
@@ -9687,7 +9669,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 30px;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -9746,7 +9728,7 @@ only screen and (max-width: 1919px) {
     font-size: 580px;
     font-weight: 315;
     line-height: 0.8;
-    letter-spacing: -0.1em;
+    letter-spacing: 0.2px;
     color: #FCF7F3;
     display: inline-block;
 }
@@ -9821,13 +9803,13 @@ only screen and (max-width: 1919px) {
 }
 
 .funfact-area-2 .section-content .info-text img {
-    height: 43px;
+    /*height: 43px;*/
     width: 15%;
 }
 
 @media only screen and (max-width: 1919px) {
     .funfact-area-2 .section-content .info-text img {
-        height: 33px;
+        /*height: 33px;*/
         width: 15%;
     }
 }
@@ -9850,7 +9832,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: #FCF7F3;
     max-width: 273px;
     margin-top: 42px;
@@ -10082,7 +10064,7 @@ only screen and (max-width: 1919px) {
     font-size: 36px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     display: inline;
 }
 
@@ -10395,7 +10377,7 @@ only screen and (max-width: 1919px) {
     font-size: 80px;
     font-weight: 500;
     line-height: 1;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     max-width: 575px;
 }
 
@@ -10665,7 +10647,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -10678,7 +10660,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     display: block;
     font-family: var(--font_bdogrotesk);
     color: var(--primary);
@@ -10694,7 +10676,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     display: block;
     font-family: var(--font_bdogrotesk);
     color: var(--primary);
@@ -10719,7 +10701,7 @@ only screen and (max-width: 1919px) {
     font-size: 280px;
     font-weight: 400;
     line-height: 1;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     white-space: nowrap;
     margin-bottom: 50px;
 }
@@ -11075,7 +11057,7 @@ only screen and (max-width: 1919px) {
     font-size: 36px;
     font-weight: 400;
     line-height: 1.11;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -11171,7 +11153,7 @@ only screen and (max-width: 1919px) {
     font-size: 140px;
     font-weight: 400;
     line-height: 0.96;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     padding-bottom: 34px;
     position: relative;
     display: inline-flex;
@@ -11549,7 +11531,8 @@ only screen and (max-width: 1919px) {
     font-size: 220px;
     font-weight: 600;
     line-height: 1;
-    letter-spacing: -15.4px;
+    /* letter-spacing: -15.4px; */
+    letter-spacing: 0.2px;
     text-transform: uppercase;
 }
 
@@ -11562,35 +11545,36 @@ only screen and (max-width: 1919px) {
 @media only screen and (max-width: 1399px) {
     .hero-area-6 .section-title {
         font-size: 130px;
-        letter-spacing: -10px;
+        /* letter-spacing: -10px; */
+        letter-spacing: 0.2px;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .hero-area-6 .section-title {
         font-size: 105px;
-        letter-spacing: -5px;
+        letter-spacing: 0.2px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .hero-area-6 .section-title {
         font-size: 90px;
-        letter-spacing: -5px;
+        letter-spacing: 0.2px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .hero-area-6 .section-title {
         font-size: 60px;
-        letter-spacing: 0;
+        letter-spacing: 0.2px;
     }
 }
 
 @media (max-width: 575px) {
     .hero-area-6 .section-title {
         font-size: 45px;
-        letter-spacing: 0;
+        letter-spacing: 0.2px;
     }
 }
 
@@ -11834,7 +11818,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -11847,7 +11831,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     display: block;
     font-family: var(--font_bdogrotesk);
     color: var(--primary);
@@ -11863,7 +11847,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     display: block;
     font-family: var(--font_bdogrotesk);
     color: var(--primary);
@@ -13132,7 +13116,7 @@ only screen and (max-width: 1919px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -13147,7 +13131,7 @@ only screen and (max-width: 1919px) {
     font-weight: 400;
     line-height: 26px;
     color: var(--primary);
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     font-family: var(--font_bdogrotesk);
 }
 
@@ -13163,7 +13147,7 @@ only screen and (max-width: 1919px) {
     font-weight: 400;
     line-height: 26px;
     color: var(--primary);
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     font-family: var(--font_bdogrotesk);
 }
 
@@ -13310,7 +13294,7 @@ only screen and (max-width: 1919px) {
     font-size: 36px;
     font-weight: 400;
     line-height: 1.33;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
     max-width: 440px;
 }
 
@@ -13377,7 +13361,7 @@ only screen and (max-width: 1919px) {
     font-size: 36px;
     font-weight: 400;
     line-height: 1.33;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -14311,7 +14295,7 @@ only screen and (max-width: 1919px) {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.2px;
     padding: 10px 20px;
     display: inline-block;
     background-color: var(--theme);
@@ -14339,7 +14323,7 @@ only screen and (max-width: 1919px) {
     font-size: 300px;
     font-weight: 315;
     line-height: 0.7;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -14545,7 +14529,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     font-family: var(--font_sequelsansromanbody);
     position: relative;
@@ -14818,7 +14803,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     display: flex;
     gap: 0 20px;
     align-items: center;
@@ -14995,7 +14981,7 @@ only screen and (max-width: 1919px) {
     font-size: 41px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
     color: var(--white);
     margin-top: 14px;
     margin-bottom: 14px;
@@ -15130,7 +15116,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 35px;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--white);
     max-width: 310px;
 }
@@ -15448,7 +15435,7 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.07em;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -15563,7 +15550,8 @@ only screen and (max-width: 1919px) {
     font-size: 50px;
     font-weight: 310;
     line-height: 0.7;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     margin-bottom: 28px;
 }
 
@@ -16067,7 +16055,8 @@ only screen and (max-width: 1919px) {
     font-size: 36px;
     font-weight: 310;
     line-height: 1;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     display: inline;
 }
 
@@ -16409,7 +16398,8 @@ only screen and (max-width: 1919px) {
     font-size: 36px;
     font-weight: 310;
     line-height: 1;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     display: inline;
 }
 
@@ -16553,10 +16543,6 @@ only screen and (max-width: 1919px) {
     margin-top: 10px;
 }
 
-.form-area-contact-page{
-    background-color: var(--bg);
-}
-
 .contact-area-contact-page .section-header {
     border-top: 1px solid var(--border);
     padding-top: 37px;
@@ -16659,26 +16645,13 @@ only screen and (max-width: 1919px) {
     color: var(--primary);
 }
 
-.contact-area-form-page .contact-mail .title {
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: var(--primary);
-}
-
-.title {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 20px;
-    color: var(--primary);
-}
-
 .contact-area-contact-page .contact-mail .text {
     font-family: var(--font_sequelsansromanbody);
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     max-width: 410px;
     margin-top: 24px;
@@ -16732,7 +16705,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     display: inline-block;
     transition: all 0.5s;
@@ -16795,9 +16769,8 @@ only screen and (max-width: 1919px) {
 .contact-area-contact-page .contact-formfield input {
     width: 100%;
     height: 40px;
-    padding-bottom: 20px;
     border: none;
-    border-bottom: 1px solid var(--theme);
+    border-bottom: 1px solid var(--primary);
     outline: none;
     background-color: transparent;
     transition: all 0.5s;
@@ -16821,11 +16794,10 @@ only screen and (max-width: 1919px) {
     width: 100%;
     height: 40px;
     border: none;
-    border-bottom: 1px solid var(--theme);
+    border-bottom: 1px solid var(--primary);
     outline: none;
     background-color: transparent;
     transition: all 0.5s;
-    padding-bottom: 20px;
     color: var(--primary);
 }
 
@@ -16836,13 +16808,10 @@ only screen and (max-width: 1919px) {
 .contact-area-contact-page .contact-formfield select option {
     width: 100%;
     max-width: 100%;
-    color: #9b000d;
-
 }
 
 .dark .contact-area-contact-page .contact-formfield select option {
     background-color: var(--black);
-    color: var(--white);
 }
 
 .contact-area-contact-page .contact-formfield select option[disabled] {
@@ -16958,7 +16927,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     padding: 30px 0 33px;
     border-radius: 0 !important;
@@ -17024,7 +16994,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     position: absolute;
     top: 30px;
     left: 0;
@@ -17249,7 +17220,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     text-transform: unset;
 }
@@ -17320,7 +17292,8 @@ only screen and (max-width: 1919px) {
     font-size: 265px;
     font-weight: 310;
     line-height: 0.65;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
 }
 
@@ -17397,7 +17370,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 30px;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -17511,7 +17485,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1;
-    /* letter-spacing: -0.07em; */
+    /* letter-spacing: 0.2px; */
+    letter-spacing: 0.2px;
     color: var(--white);
 }
 
@@ -17574,7 +17549,8 @@ only screen and (max-width: 1919px) {
 }
 
 .value-area .section-title {
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--white);
     max-width: 660px;
 }
@@ -17635,7 +17611,8 @@ only screen and (max-width: 1919px) {
     font-size: 100px;
     font-weight: 310;
     line-height: 0.9;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--white);
     padding-top: 17px;
     border-top: 1px solid rgba(252, 247, 243, 0.2);
@@ -17786,7 +17763,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    /*letter-spacing: -0.07em;*/
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     padding: 30px 0 33px;
     border-radius: 0 !important;
@@ -17852,7 +17830,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1.16;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     position: absolute;
     top: 30px;
@@ -18216,7 +18195,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 0.93;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     color: var(--primary);
     text-transform: unset;
 }
@@ -18560,7 +18540,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     transition: all 0.5s;
 }
 
@@ -18679,7 +18660,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -18837,7 +18819,8 @@ only screen and (max-width: 1919px) {
     font-size: 50px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.07em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     max-width: 440px;
 }
 
@@ -18918,7 +18901,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 27px;
-    letter-spacing: -0.08em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -19242,7 +19226,8 @@ only screen and (max-width: 1919px) {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -0.02em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
     padding: 10px 20px;
     display: inline-block;
     background-color: white;
@@ -19265,7 +19250,8 @@ only screen and (max-width: 1919px) {
     font-size: 30px;
     font-weight: 310;
     line-height: 1;
-    letter-spacing: -0.08em;
+    /*letter-spacing: 0.2px;*/
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -19402,7 +19388,8 @@ only screen and (max-width: 1919px) {
 .header-area .rr-btn {
     font-size: 16px;
     padding: 22px 38px;
-    letter-spacing: -0.04em;
+    /*letter-spacing: -0.04em;*/
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -19476,7 +19463,7 @@ only screen and (max-width: 1919px) {
 }
 
 .header-area-2 .main-menu li a:hover {
-    color: #005aff;
+    color: var(--action);
 }
 
 .header-area-2 .search-icon {
@@ -19498,7 +19485,8 @@ only screen and (max-width: 1919px) {
 .header-area-2 .rr-btn {
     padding: 16px 28px;
     font-size: 16px;
-    letter-spacing: -0.04em;
+    /*letter-spacing: -0.04em;*/
+    letter-spacing: 0.2px;
     
 }
 
@@ -20091,8 +20079,9 @@ only screen and (max-width: 1919px) {
 .footer-area .footer-top-inner .info-text .text {
     max-width: 510px;
     font-size: 30px;
-    line-height: 1.26;
+    /*line-height: 1.26;*/
     color: var(--primary);
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -21265,7 +21254,7 @@ only screen and (max-width: 1919px) {
     color: var(--primary);
     font-size: 30px;
     line-height: 38px;
-    letter-spacing: -0.6px;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -21285,7 +21274,7 @@ only screen and (max-width: 1919px) {
 .footer-area-6 .footer-widget-title {
     font-size: 100px;
     line-height: 0.95;
-    letter-spacing: -5px;
+    letter-spacing: 0.2px;
     margin-bottom: 100px;
 }
 
@@ -21298,7 +21287,7 @@ only screen and (max-width: 1919px) {
 @media only screen and (max-width: 991px) {
     .footer-area-6 .footer-widget-title {
         font-size: 50px;
-        letter-spacing: 0;
+        letter-spacing: 0.2px;
         margin-bottom: 50px;
     }
 }
@@ -25359,7 +25348,8 @@ START: Footer CSS
     color: var(--rr-color-common-white);
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 4px;
+    /* letter-spacing: 4px; */
+    letter-spacing: 0.2px;
     text-transform: uppercase;
 }
 
@@ -25908,132 +25898,3 @@ START: About CSS
 .dark .about-wrap .shape {
     opacity: 1;
 }
-
-/* ===== FULLSCREEN OVERLAY ===== */
-.assessment-loader {
-    position: fixed;
-    inset: 0;
-    background: rgba(10, 10, 10, 0.75);
-    backdrop-filter: blur(6px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-}
-
-/* ===== CARD ===== */
-.loader-card {
-    background: #111;
-    padding: 40px 50px;
-    border-radius: 20px;
-    text-align: center;
-    width: 320px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-    animation: fadeInScale 0.3s ease;
-}
-
-.loader-card h4 {
-    color: #fff;
-    margin-top: 20px;
-    font-weight: 600;
-}
-
-.loader-card p {
-    color: #aaa;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-/* ===== CIRCLE ===== */
-.form-progress-circle {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    margin: auto;
-}
-
-/* .progress-circle svg {
-    transform: rotate(-90deg);
-    animation: spin 2s linear infinite;
-} */
-
-.form-progress-circle circle {
-    fill: none;
-    stroke-width: 8;
-    stroke-linecap: round;
-}
-
-.form-progress-circle .bg {
-    stroke: #333;
-}
-
-.form-progress-circle .progress {
-    stroke: #000000;
-    stroke-dasharray: 314;
-    stroke-dashoffset: 314;
-    transition: stroke-dashoffset 0.3s linear;
-}
-
-.percentage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-}
-
-/* animation */
-@keyframes fadeInScale {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.air-datepicker-body--day-name {
-    color: #003EBA !important;
-}
-
-.air-datepicker-cell.-selected-,
-.air-datepicker-cell.-selected-.-current-,
-.air-datepicker-cell.-selected-.-focus- {
-    color: #fff;
-    background: #003EBA;
-}
-
-.iti {
-    width: 100%;
-}
-
-.iti__country-list {
-    background-color: #171717 !important;
-    border: none !important;
-}
-
-input.error::placeholder,
-select.error {
-  color: red !important;
-}
-
-input.error,
-select.error {
-  border-color: red !important;
-}
-

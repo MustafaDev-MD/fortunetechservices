@@ -16,11 +16,11 @@
                 <div class="header__nav pos-center">
                     <nav class="main-menu">
                         <ul>
-                            <li><a href="{{ route('home') }}">Home</a></li>
-                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li><a href="{{ route('home') }}">Overview</a></li>
+                            <li><a href="{{ route('about') }}">Agency</a></li>
                             
                             <li>
-                                <a href="{{ route('services') }}">Service +</a>
+                                <a href="{{ route('services') }}">Solutions +</a>
                                 <ul class="dp-menu">
                                     <li><a href="{{ route('services.digital-growth') }}">Digital Growth</a></li>
                                     <li><a href="{{ route('services.creative-animation') }}">Creative & Animation</a></li>
@@ -35,14 +35,14 @@
                             <li>
                                 <a href="#">Insights +</a>
                                 <ul class="dp-menu">
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
-                                    <li><a href="{{ route('careers') }}">Careers</a></li>
-                                    <li><a href="{{ route('faqs') }}">FAQ's</a></li>
+                                    <li><a href="{{ route('blog') }}">Insights</a></li>
+                                    <li><a href="{{ route('careers') }}">Talent</a></li>
+                                    <li><a href="{{ route('faqs') }}">Help</a></li>
                                 </ul>
                             </li>
                             
-                            <li><a href="{{ route('form') }}">Free Audit</a></li>
-                            <li><a href="{{ route('contact') }}">Contact</a></li>
+                            <!-- <li><a href="{{ route('form') }}">Free Audit</a></li> -->
+                            <li><a href="{{ route('contact') }}">Connect</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -51,8 +51,8 @@
                 <div class="header__button">
                     <a href="{{ route('contact') }}" class="rr-btn">
                         <span class="btn-wrap">
-                            <span class="text-one">Book Consult</span>
-                            <span class="text-two">Book Consult</span>
+                            <span class="text-one">Book a Free Consultation</span>
+                            <span class="text-two">Book a Free Consultation</span>
                         </span>
                     </a>
                 </div>

@@ -16,112 +16,76 @@
   </section>
 
   <!-- blog details area start  -->
-  <section class="blog-details-area" style="cursor: pointer;">
-    <div class="blog-details-area-inner section-spacing-top" style="cursor: pointer;">
-      <div class="container large" style="cursor: pointer;">
+  <section class="blog-details-area">
+    <div class="blog-details-area-inner section-spacing-top">
+      <div class="container large">
         <div class="section-header fade-anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; cursor: pointer;">
 
-          <!-- <div class="meta" style="cursor: pointer;">
-                  <span class="name" style="cursor: pointer;">By <span style="cursor: pointer;">Jerry</span></span>
-                  <span class="tag has-left-line" style="cursor: pointer;">Business</span>
-                  <span class="date has-left-line" style="cursor: pointer;">2023</span>
+          <!-- <div class="meta">
+                  <span class="name">By <span>Jerry</span></span>
+                  <span class="tag has-left-line">Business</span>
+                  <span class="date has-left-line">2023</span>
                 </div> -->
         </div>
       </div>
       <!-- <div class="image-wrapper parallax-view fade-anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; cursor: pointer;">
               <img class="w-100" src="{{ asset('assets/imgs/gallery/image-35.webp') }}" alt="image" data-speed="0.8" data-lag="0" style="translate: none; rotate: none; scale: none; transform: translate(0px, 137.4px); will-change: transform; cursor: pointer;">
             </div> -->
-      <div class="container" style="cursor: pointer;">
+      <div class="container">
         <div class="section-details fade-anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; cursor: pointer;">
-          <div class="text-wrapper" style="cursor: pointer;">
-            <p class="text" style="cursor: pointer;">Myriam was first trained as a sculptor in Montreal and then in Helsinki, Finland.
-              She is
-              now based in Quebec but works for clients all around the globe. From textile design to murals,
-              editorial illustrations and book covers, her style is recognized by her simple and perfectly
-              arranged
-              shapes as well as her rich and vibrant color palette. Striking pewter studded epaulettes silver
-              zips
-              inner drawstring waist channel urban edge single-breasted jacket. There are several reasons why a
-              business would consider a rebrand</p>
+          <div class="text-wrapper">
+            <p class="text">At Fortune Tech Services, we treat data not as a commodity, but as the foundational architecture of your operational scale. This Privacy Policy outlines our strict protocols for the collection, utilization, and protection of the information you provide when interfacing with our digital ecosystem.
+            </p>
           </div>
-          <div class="details-info" style="cursor: pointer;">
-            <h3 class="title" style="cursor: pointer;">Typography Hierarchy</h3>
-            <div class="text-wrapper" style="cursor: pointer;">
-              <p class="text" style="cursor: pointer;">Always ready to push the boundaries, especially when it comes to our own platform,
-                Our analytical eye to create a site that was visually engaging and also optimized for maximum
-                performance. It also perfectly reflects the journey to help it tell a story to increase its
-                understanding and drive action.</p>
+          <div class="details-info">
+            <h3 class="title">Data Collection Architecture</h3>
+            <div class="text-wrapper">
+              <p class="text">When you engage with our platform, specifically through our forensic audit terminals or consultation gateways, we collect precise operational inputs. This includes direct identifiers such as your corporate email, operational status, and any specific friction points you choose to disclose. We engineered this collection to be minimal, extracting only the data required to calculate your operational velocity.</p>
             </div>
-            <div class="thumb-text-wrapper" style="cursor: pointer;">
-              <!-- <div class="thumb parallax-view" style="cursor: pointer;">
+            <div class="thumb-text-wrapper">
+              <!-- <div class="thumb parallax-view">
                       <img src="{{ asset('assets/imgs/gallery/image-36.webp') }}" alt="image" data-speed="0.8" data-lag="0" style="translate: none; rotate: none; scale: none; transform: translate(0px, -53.4998px); will-change: transform; cursor: pointer;">
                     </div> -->
-              <div class="text-wrapper" style="cursor: pointer;">
-                <p class="text" style="cursor: pointer;">Beckoning a diverse audience of food lovers who may have never considered trying
-                  dumplings before. The unique blend of bold quirkiness and personality sets this brand apart,
-                  marking its own distinct place in the crowded world of bold font family. We love to bring
-                  designs to life as a developer, and I aim to do this using whatever front end tools are
-                  necessary.</p>
-                <p class="text" style="cursor: pointer;">Structured gripped tape invisible molded cups for support firm hold strong power
-                  mesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the
-                  front full button detail cotton blend cute functional. Bodycon skirts bright primary colors
-                  punchy palette. Visual hierarchy is the principle of arranging elements to show their order of
-                  importance. information easily. By laying out elements logically and strategically damage.</p>
+              <div class="text-wrapper">
+                <p class="text">Beyond direct inputs, our system autonomously gathers baseline technical metrics to ensure a frictionless user experience. This involves standard navigational data, including IP addresses, browser types, and session durations. This diagnostic telemetry allows us to continuously refactor our own infrastructure for peak performance and absolute security.</p>
+                <p class="text">We do not engage in the indiscriminate harvesting of personal information. Every data point we capture is tied to a specific, functional requirement within our service matrix. Our objective is to diagnose organizational drag, and our data collection protocols are exclusively aligned with engineering your operational solutions.</p>
               </div>
             </div>
           </div>
-          <div class="details-info" style="cursor: pointer;">
-            <h3 class="title" style="cursor: pointer;">Visual Hierarchy</h3>
-            <div class="text-wrapper" style="cursor: pointer;">
-              <p class="text" style="cursor: pointer;">We had observers go into the workplace and we timed people’s activities to the
-                second. We’ve been to various workplaces, all high-tech companies. We wanted to look at
-                information workers. We had observers shadow each person for three and a half days each and
-                timed every activity to the second.</p>
+          <div class="details-info">
+            <h3 class="title">Operational Security & Utilization</h3>
+            <div class="text-wrapper">
+              <p class="text">The Processing Framework</p>
             </div>
-            <div class="feature-list" style="cursor: pointer;">
-              <ul style="cursor: pointer;">
-                <li style="cursor: pointer;">Create the table lines here&nbsp;</li>
-                <li style="cursor: pointer;">Organize everything early thoroughly</li>
-                <li style="cursor: pointer;">Development</li>
-                <li style="cursor: pointer;">Shopify Development</li>
+            <div class="feature-list">
+              <ul>
+                <li>To execute precise forensic audits.</li>
+                <li>To engineer custom operational solutions.</li>
+                <li>To optimize your system's output velocity.</li>
+                <li>To maintain secure, restricted access.</li>
+                <li>To deploy critical system updates.</li>
               </ul>
             </div>
-            <div class="text-wrapper" style="cursor: pointer;">
-              <p class="text" style="cursor: pointer;">Achieving deep work should be our goal in any team, but doing it in an office
-                setting can be challenging because of so many distractions. Asynchronous communication in a
-                remote setting is perfect for it. I’m not a fan of long reads with too many unnecessary details,
-                so I’ll “jump” into the subject right away. My guide consists of several parts; thus, you can
-                stop reading at any point when you understand that what you have learned so far covers your
-                needs at the moment, and you can go back/or jump forward to any section when you want to refresh
-                your memory or learn about the more complex workflows. Let’s go and do that!</p>
+            <div class="text-wrapper">
+              <p class="text">Information entered into the Fortune Tech ecosystem remains strictly within our controlled environment. We categorically refuse to sell, lease, or distribute your operational data to unauthorized third-party brokers. Your structural vulnerabilities are treated with the highest level of corporate confidentiality, utilizing modern encryption standards to prevent unauthorized access or data breaches.</p>
             </div>
           </div>
-          <div class="details-info" style="cursor: pointer;">
-            <h3 class="title" style="cursor: pointer;">UX Principal</h3>
-            <div class="text-wrapper" style="cursor: pointer;">
-              <p class="text" style="cursor: pointer;">Always ready to push the boundaries, especially when it comes to our own platform,
-                Our analytical eye to create a site that was visually engaging and also optimized for maximum
-                performance. It also perfectly reflects the journey to help it tell a story to increase its
-                understanding and drive action.</p>
+          <div class="details-info">
+            <h3 class="title">Your Access & Control</h3>
+            <div class="text-wrapper">
+              <p class="text">You maintain total sovereignty over your data within our network. At any time, you retain the right to request a full export of your operational profile, mandate the correction of any structural inaccuracies, or initiate a complete erasure of your records from our active servers.</p>
             </div>
-            <div class="gallery-wrapper" style="cursor: pointer;">
-              <div class="image parallax-view" style="cursor: pointer;">
+            <div class="gallery-wrapper">
+              <div class="image parallax-view">
                 <img src="{{ asset('assets/imgs/gallery/image-37.webp') }}" alt="image" data-speed="0.8" data-lag="0" style="translate: none; rotate: none; scale: none; transform: translate(0px, -130.375px); will-change: transform; cursor: pointer;">
               </div>
-              <div class="image parallax-view" style="cursor: pointer;">
+              <div class="image parallax-view">
                 <img src="{{ asset('assets/imgs/gallery/image-38.webp') }}" alt="image" data-speed="0.8" data-lag="0" style="translate: none; rotate: none; scale: none; transform: translate(0px, -130.375px); will-change: transform; cursor: pointer;">
               </div>
             </div>
-            <div class="text-wrapper" style="cursor: pointer;">
-              <p class="text" style="cursor: pointer;">Beckoning a diverse audience of food lovers who may have never considered trying
-                dumplings before. The unique blend of bold quirkiness and personality sets this brand apart,
-                marking its own distinct place in the crowded world of bold font family. We love to bring
-                designs to life as a developer, and I aim to do this using whatever front end tools are
-                necessary.</p>
-              <p class="text" style="cursor: pointer;">Structured gripped tape invisible moulded cups for sauppor firm hold strong
-                powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at
-                the front full button detail cotton blend cute functional. Bodycon skirts bright primary colours
-                punchy palette. By working closely with you, understanding your vision</p>
+            <div class="text-wrapper">
+              <p class="text">To execute any of these data control rights, you must submit a formal request through our secure contact terminal. Our team will verify your authorization credentials and process the required modifications within standard operational timeframes to ensure compliance with global privacy frameworks.</p>
+              <p class="text">As our technological capabilities and legal obligations evolve, we will periodically update this internal protocol. Any fundamental shifts in our data architecture will be reflected on this page. For direct inquiries regarding your data security, ping our administrative team at <a href="mailto:connect@fortunetech.com">connect@fortunetech.com</a>.</p>
             </div>
           </div>
 

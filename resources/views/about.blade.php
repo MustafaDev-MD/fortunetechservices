@@ -45,7 +45,7 @@
                             <p class="text">As your global strategic ally, we provide the industrial-grade foundation required for scale. We don't just fulfill service contracts; we engineer the momentum that carries your vision to market with assured confidence.</p>
                         </div>
                         <div class="btn-wrapper" data-direction="right">
-                            <a href="{{ route('about') }}" class="rr-btn">
+                            <a href="{{ route('contact') }}" class="rr-btn">
                                 <span class="btn-wrap">
                                     <span class="text-one">Meet the Architects</span>
                                     <span class="text-two">Meet the Architects</span>

@@ -62,8 +62,8 @@
             <div class="side-info-content">
                 <div class="offset-widget offset-header">
                     <div class="offset-logo">
-                        <a href="index.html">
-                            <img src="assets/imgs/logo/logo-new.png" alt="site logo">
+                        <a href="{{ route('home') }}">
+                            <img src="{{ asset('assets/imgs/logo/logo-new.png') }}" alt="site logo">
                         </a>
                     </div>
                     <button id="side-info-close" class="side-info-close">
@@ -87,12 +87,20 @@
                             <span class="text">UAE</span>
                         </div>
                         <div class="contact-item">
-                            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-                            <span class="text"><a href="mailto:connect@fortunetechservices.com">connect@fortunetechservices.com</a></span>
+                            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                            <span class="text"><a href="tel:+971524069690">(+971) 52 406 9690</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <span class="text">Pakistan</span>
                         </div>
                         <div class="contact-item">
                             <span class="icon"><i class="fa-solid fa-phone"></i></span>
-                            <span class="text"><a href="tel:(505)555-0125">+92 321 9880011</a></span>
+                            <span class="text"><a href="tel:+923219880011">(+92) 321 988 0011</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                            <span class="text"><a href="mailto:connect@fortunetechservices.com">connect@fortunetechservices.com</a></span>
                         </div>
                     </div>
                 </div>
@@ -144,7 +152,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    
+
 
     <!-- Flatpickr JS -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>

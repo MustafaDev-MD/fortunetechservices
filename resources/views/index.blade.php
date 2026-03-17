@@ -381,12 +381,12 @@
                 </div>
             </div>
         </div>
-        <div class="video-box">
+        <!-- <div class="video-box">
             <video class="video-area" loop="" muted="" autoplay="" playsinline="">
-                <source src="https://fortunetechservices.com/video.mp4" type="video/mp4">
+                <source src="https://fortunetechservices.com/video.mp4" type="video/mp4"> -->
                 <!--<source src="https://rrdevs.net/project-video/group-meeting.mp4" type="video/mp4">-->
-            </video>
-        </div>
+            <!-- </video>
+        </div> -->
 
     </section>
     <!-- work area end  -->
