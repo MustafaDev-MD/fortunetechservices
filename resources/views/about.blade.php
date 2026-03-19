@@ -79,14 +79,14 @@
                         </div>
                         <div class="title-wrapper">
                             <h2 class="section-title font-sequelsans-romanbody">The Only Metrics That Matter: Assurance and Scale.</h2>
-                            <p class="text test-new">We measure what others guess. Our engineered metrics define the predictability and control we guarantee across every domain</p>
+                            <p class="text test-new">We measure what others guess. Our engineered metrics define the predictability and<br> control we guarantee across every domain</p>
                         </div>
                     </div>
                 </div>
                 <div class="approach-wrapper-box">
                     <div class="approach-wrapper fade-anim">
                         <div class="approach-box">
-                            <h2 class="title">Risk Audit<img src="{{ asset('assets/imgs/shape/shape-13.webp') }}" alt="image"></h2>
+                            <h2 class="title">Risk Audit<img src="{{ asset('assets/imgs/shape/shape-13.webp') }}" alt="image" class="about-arrow-image-1"></h2>
                             <div class="approach-list">
                                 <ul>
                                     <li>Risk Profile Audit</li>
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <div class="approach-box">
-                            <h2 class="title">System Fusion<img src="{{ asset('assets/imgs/shape/shape-13.webp') }}" alt="image"></h2>
+                            <h2 class="title">System Fusion<img src="{{ asset('assets/imgs/shape/shape-13.webp') }}" alt="image" class="about-arrow-image-2"></h2>
                             <div class="approach-list">
                                 <ul>
                                     <li>Platform Deployment</li>

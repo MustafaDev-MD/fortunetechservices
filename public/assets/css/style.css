@@ -14766,6 +14766,14 @@ only screen and (max-width: 1919px) {
     margin-bottom: 43px;
 }
 
+.about-arrow-image-1 {
+    width: 235px;
+}
+
+.about-arrow-image-2 {
+    width: 187px;
+}
+
 @media only screen and (max-width: 1919px) {
     .approach-area-about-page .approach-wrapper-box {
         max-width: 1000px;
@@ -14791,6 +14799,7 @@ only screen and (max-width: 1919px) {
     display: grid;
     gap: 40px 50px;
     grid-template-columns: 1fr 1fr auto;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -14818,18 +14827,18 @@ only screen and (max-width: 1919px) {
 }
 
 .approach-area-about-page .approach-box .title img {
-    width: 250px;
+    /* width: 250px; */
 }
 
 @media only screen and (max-width: 1919px) {
     .approach-area-about-page .approach-box .title img {
-        width: 200px;
+        /* width: 200px; */
     }
 }
 
 @media only screen and (max-width: 1399px) {
     .approach-area-about-page .approach-box .title img {
-        width: 150px;
+        /* width: 150px; */
     }
 }
 
