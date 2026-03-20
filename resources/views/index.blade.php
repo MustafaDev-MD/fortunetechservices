@@ -193,7 +193,7 @@
                                 </ul>
                             </div>
                             <div class="thumb">
-                                <img class="grow" src="{{ asset('assets/imgs/gallery/image-4.webp') }}" alt="image">
+                                <img class="grow" src="{{ asset('assets/imgs/gallery/image-3.webp') }}" alt="image">
                             </div>
                         </div>
 
