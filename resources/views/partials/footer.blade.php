@@ -34,7 +34,7 @@
 
                 {{-- NEWSLETTER --}}
                 <div class="footer-widget-box newsletter">
-                    <form action="{{ route('subscribe') }}" method="POST" class="subscribe-form">
+                    <!-- <form action="{{ route('subscribe') }}" method="POST" class="subscribe-form">
                         @csrf
                         <div class="input-field">
                             <input type="email" name="email" placeholder="Enter your email" required>
@@ -42,7 +42,7 @@
                                 <img src="{{ asset('assets/imgs/icon/icon-1.webp') }}" alt="send">
                             </button>
                         </div>
-                    </form>
+                    </form> -->
 
                     <div class="subscription-text">
                         <p class="text">
