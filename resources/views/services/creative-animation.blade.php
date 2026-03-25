@@ -18,8 +18,8 @@
                 <div class="section-header fade-anim">
                     <div class="section-title-wrapper">
                         <div class="title-wrapper">
-                            <h2 class="section-title font-sequelsans-romanbody">CREATIVE & ANIMATION
-                            </h2>
+                            <h1 class="section-title font-sequelsans-romanbody">CREATIVE & ANIMATION
+                            </h1>
                         </div>
                     </div>
                 </div>

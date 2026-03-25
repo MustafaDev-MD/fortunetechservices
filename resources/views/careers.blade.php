@@ -7,7 +7,7 @@
 <main>
 
     <!-- hero area start  -->
-    <section class="hero-area-3">
+    <section class="hero-area-3 career">
         <div class="container large">
             <div class="hero-area-3-inner">
                 <div class="section-header">
@@ -62,7 +62,7 @@
     </div>
 
     <!-- service area start  -->
-    <section class="service-area-3">
+    <section class="service-area-3 career">
         <div class="container large">
             <div class="service-area-3-inner section-spacing-top">
                 <div class="section-header fade-anim">

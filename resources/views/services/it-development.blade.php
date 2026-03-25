@@ -18,7 +18,7 @@
                 <div class="section-header fade-anim">
                     <div class="section-title-wrapper">
                         <div class="title-wrapper">
-                            <h2 class="section-title font-sequelsans-romanbody">IT & DEVELOPMENT
+                            <h1 class="section-title font-sequelsans-romanbody">IT & DEVELOPMENT
                             </h2>
                         </div>
                     </div>

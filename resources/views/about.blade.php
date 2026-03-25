@@ -186,13 +186,13 @@
                     <div class="swiper client-slider-active">
                         <div class="swiper-wrapper">
                             @for ($i = 1; $i <= 16; $i++)
-                                @if ($i != 9 && $i != 15)
+                                {{-- @if ($i != 9 && $i != 15) --}}
                                     <div class="swiper-slide">
                                         <div class="client-box">
                                             <img src="{{ asset("assets/imgs/client/TAB{$i}-01.svg") }}" alt="Client {{ $i }}">
                                         </div>
                                     </div>
-                                @endif
+                                {{-- @endif --}}
                             @endfor
                         </div>
                     </div>
