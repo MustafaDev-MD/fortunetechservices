@@ -15,21 +15,21 @@ use App\Http\Controllers\AssessmentController;
 */
 
 Route::get('/', [PageController::class, 'home'])->name('home');
-Route::get('/about', [PageController::class, 'about'])->name('about');
-Route::get('/services', [PageController::class, 'services'])->name('services');
-Route::get('/blog', [PageController::class, 'blog'])->name('blog');
-Route::get('/careers', [PageController::class, 'careers'])->name('careers');
-Route::get('/faqs', [PageController::class, 'faqs'])->name('faqs');
-Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/agency', [PageController::class, 'about'])->name('about');
+Route::get('/solutions', [PageController::class, 'services'])->name('services');
+Route::get('/insights', [PageController::class, 'blog'])->name('blog');
+Route::get('/talent', [PageController::class, 'careers'])->name('careers');
+Route::get('/help', [PageController::class, 'faqs'])->name('faqs');
+Route::get('/connect', [PageController::class, 'contact'])->name('contact');
 Route::get('/form', [PageController::class, 'form'])->name('form');
 
 /*
 |--------------------------------------------------------------------------
-| Service Detail Pages
+| Service Detail Pages 
 |--------------------------------------------------------------------------
 */
 
-Route::prefix('services')->name('services.')->group(function () {
+Route::prefix('solutions')->name('services.')->group(function () {
     Route::get('/digital-growth', [ServiceController::class, 'digitalGrowth'])->name('digital-growth');
     Route::get('/creative-animation', [ServiceController::class, 'creativeAnimation'])->name('creative-animation');
     Route::get('/it-development', [ServiceController::class, 'itDevelopment'])->name('it-development');
@@ -59,7 +59,7 @@ Route::post('/subscribe', [PageController::class, 'subscribe'])->name('subscribe
 |--------------------------------------------------------------------------
 */
 
-Route::get('/blog/{slug}', [PageController::class, 'showBlog'])->name('blog.detail');
+Route::get('/insights/{slug}', [PageController::class, 'showBlog'])->name('blog.detail');
 
 /*
 |--------------------------------------------------------------------------

@@ -131,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="service-content-wrapper section-spacing-top">
+                <!-- <div class="service-content-wrapper section-spacing-top">
                     <div class="service-content">
                         <div class="section-info-wrapper fade-anim" data-direction="left">
                             <div class="thumb parallax-view">
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -307,7 +307,7 @@
                             </span>
                         </p>
                         <p data-t-throwable-el="">
-                            <span class="client-box bg-theme">
+                            <span class="client-box">
                                 <img src="{{ asset('assets/imgs/client/TAB15-01.svg') }}" alt="image">
                             </span>
                         </p>
@@ -332,7 +332,7 @@
                             </span>
                         </p>
                         <p data-t-throwable-el="">
-                            <span class="client-box bg-theme">
+                            <span class="client-box">
                                 <img src="{{ asset('assets/imgs/client/TAB17-01.svg') }}" alt="image">
                             </span>
                         </p>
@@ -347,12 +347,12 @@
                         <!--</span>-->
                         <!--                </p>-->
                         <p data-t-throwable-el="">
-                            <span class="client-box">
+                            <span class="client-box bg-theme">
                                 <img src="{{ asset('assets/imgs/client/TAB14-01.svg') }}" alt="image">
                             </span>
                         </p>
                         <p data-t-throwable-el="">
-                            <span class="client-box">
+                            <span class="client-box bg-theme">
                                 <img src="{{ asset('assets/imgs/client/TAB16-01.svg') }}" alt="image">
                             </span>
                         </p>
