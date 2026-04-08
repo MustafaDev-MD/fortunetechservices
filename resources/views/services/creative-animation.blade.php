@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="section-thumb parallax-view">
-                        <img src="{{ asset('assets/imgs/gallery/image-24.webp') }}" alt="image" data-speed="0.8">
+                        <img src="{{ asset('assets/imgs/gallery/image-26.webp') }}" alt="image" data-speed="0.8">
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
             <div class="value-area-inner section-spacing">
                 <div class="section-content-wrapper fade-anim">
                     <div class="section-thumb parallax-view">
-                        <img src="{{ asset('assets/imgs/gallery/image-25.webp') }}" alt="image" data-speed="0.8">
+                        <img src="{{ asset('assets/imgs/gallery/image-27.webp') }}" alt="image" data-speed="0.8">
                     </div>
                     <div class="section-content">
                         <div class="section-title-wrapper">
