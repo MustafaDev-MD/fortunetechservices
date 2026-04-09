@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="image-wrapper parallax-view fade-anim">
-                <img class="w-100" src="{{ asset('assets/imgs/gallery/blog1-img1.png') }}" alt="image" data-speed="0.8">
+                <img class="w-100" src="{{ asset('assets/imgs/gallery/image-35.webp') }}" alt="image" data-speed="0.8">
             </div>
             <div class="container">
                 <div class="section-details fade-anim">
