@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="image-wrapper parallax-view fade-anim">
-                <img class="w-100" src="{{ asset('assets/imgs/gallery/image-35.webp') }}" alt="image" data-speed="0.8">
+                <img class="w-100" src="{{ asset('assets/imgs/gallery/image-55.webp') }}" alt="image" data-speed="0.8">
             </div>
             <div class="container">
                 <div class="section-details fade-anim">
@@ -39,7 +39,7 @@
                         </div>
                         <div class="thumb-text-wrapper">
                             <div class="thumb parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-36.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-56.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="text-wrapper">
                                 <p class="text">The modern boardroom is a theater of performance art. Managers present charts that are carefully cropped to show "up and to the right" trajectories, conveniently omitting the context that destroys the narrative. They tell you that traffic is up 50%, but they don't tell you that the traffic is bouncing in three seconds. They tell you leads are flowing, but they don't tell you that the sales team is rejecting 90% of them as junk. This is corporate delusion. It is a shield used to protect egos rather than a tool used to build empires.
@@ -73,10 +73,10 @@
                         </div>
                         <div class="gallery-wrapper">
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-37.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-57.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-38.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-58.webp') }}" alt="image" data-speed="0.8">
                             </div>
                         </div>
                         <div class="text-wrapper">

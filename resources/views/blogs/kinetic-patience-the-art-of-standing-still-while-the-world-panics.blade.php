@@ -40,7 +40,7 @@
                         </div>
                         <div class="thumb-text-wrapper">
                             <div class="thumb parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-36.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-48.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="text-wrapper">
                                 <p class="text">There is a distinct smell of desperation in a company that is constantly pivoting. The team is exhausted. The data is messy. The strategy changes every Monday morning because the CEO read a new article over the weekend. This is "motion," but it is not "progress." It is the energy of a hamster on a wheel—high output, zero displacement. You are burning fuel just to stay in the same place.
@@ -73,10 +73,10 @@
                         </div>
                         <div class="gallery-wrapper">
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-37.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-49.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-38.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-50.webp') }}" alt="image" data-speed="0.8">
                             </div>
                         </div>
                         <div class="text-wrapper">

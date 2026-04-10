@@ -39,7 +39,7 @@
                         </div>
                         <div class="thumb-text-wrapper">
                             <div class="thumb parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-36.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-40.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="text-wrapper">
                                 <p class="text">Consider the last time you interacted with a "perfect" AI chatbot. It was fast. It was grammatically correct. It was technically flawless. And yet, it felt completely dead. It gave you the right answer to the wrong question because it lacked the forensic intuition to read between the lines of your frustration. This is the "Uncanny Valley" of customer experience, where efficiency actually destroys trust.
@@ -73,10 +73,10 @@
                         </div>
                         <div class="gallery-wrapper">
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-37.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-41.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-38.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-42.webp') }}" alt="image" data-speed="0.8">
                             </div>
                         </div>
                         <div class="text-wrapper">

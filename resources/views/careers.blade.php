@@ -453,14 +453,14 @@
                 </div>
                 <div class="blogs-wrapper-box">
                     <div class="blogs-wrapper">
-                        <a href="{{ route('blog') }}">
+                        <a href="{{ route('blog.detail', ['slug' => 'your-marketing-is-successful-thats-exactly-why-your-company-is-failing']) }}">
                             <article class="blog fade-anim" data-delay="0.45">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/imgs/blog/blog-1.webp') }}" alt="blog image">
+                                    <img src="{{ asset('assets/imgs/blog/blog-5.webp') }}" alt="blog image">
                                 </div>
                                 <div class="content-wrapper">
                                     <div class="content">
-                                        <h2 class="title">Beyond the basics, how to take marketing to the next level
+                                        <h2 class="title">Your Marketing Is Successful—That's Exactly Why Your Company Is Failing.
                                             <span class="arrow">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 14" fill="none">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -470,21 +470,21 @@
                                             </span>
                                         </h2>
                                         <div class="meta">
-                                            <span class="name">By <span>Jerry</span></span>
-                                            <span class="date has-left-line">2023</span>
+                                            <span class="name">By <span>Admin</span></span>
+                                            <span class="date has-left-line">October 14, 2025</span>
                                         </div>
                                     </div>
                                 </div>
                             </article>
                         </a>
-                        <a href="{{ route('blog') }}">
+                        <a href="{{ route('blog.detail', ['slug' => 'the-human-algorithm-why-the-most-powerful-engine-is-still-a-heartbeat']) }}">
                             <article class="blog fade-anim" data-delay="0.60">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/imgs/blog/blog-2.webp') }}" alt="blog image">
+                                    <img src="{{ asset('assets/imgs/blog/blog-6.webp') }}" alt="blog image">
                                 </div>
                                 <div class="content-wrapper">
                                     <div class="content">
-                                        <h2 class="title">Allow us to be the cool part of your days are open for now
+                                        <h2 class="title">The Human Algorithm: Why The Most Powerful Engine Is Still A Heartbeat.
                                             <span class="arrow">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 14" fill="none">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -494,17 +494,17 @@
                                             </span>
                                         </h2>
                                         <div class="meta">
-                                            <span class="name">By <span>Jerry</span></span>
-                                            <span class="date has-left-line">2023</span>
+                                            <span class="name">By <span>Admin</span></span>
+                                            <span class="date has-left-line">November 3, 2025</span>
                                         </div>
                                     </div>
                                 </div>
                             </article>
                         </a>
-                        <a href="{{ route('blog') }}">
+                        <a href="{{ route('blog.detail', ['slug' => 'the-death-of-good-enough-a-requiem-for-mediocrity']) }}">
                             <article class="blog fade-anim" data-delay="0.75">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/imgs/blog/blog-3.webp') }}" alt="blog image">
+                                    <img src="{{ asset('assets/imgs/blog/blog-7.webp') }}" alt="blog image">
                                 </div>
                                 <div class="content">
                                     <h2 class="title">Various ideas and creative concepts based on market research
@@ -517,20 +517,20 @@
                                         </span>
                                     </h2>
                                     <div class="meta">
-                                        <span class="name">By <span>Jerry</span></span>
-                                        <span class="date has-left-line">2023</span>
+                                        <span class="name">By <span>Admin</span></span>
+                                        <span class="date has-left-line">November 27, 2025</span>
                                     </div>
                                 </div>
                             </article>
                         </a>
-                        <a href="{{ route('blog') }}">
+                        <a href="{{ route('blog.detail', ['slug' => 'kinetic-patience-the-art-of-standing-still-while-the-world-panics']) }}">
                             <article class="blog fade-anim" data-delay="0.90">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/imgs/blog/blog-4.webp') }}" alt="blog image">
+                                    <img src="{{ asset('assets/imgs/blog/blog-8.webp') }}" alt="blog image">
                                 </div>
                                 <div class="content-wrapper">
                                     <div class="content">
-                                        <h2 class="title">Create compelling visuals that grab attention to your customer
+                                        <h2 class="title">Kinetic Patience: The Art Of Standing Still While The World Panics
                                             <span class="arrow">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 14" fill="none">
                                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -540,8 +540,8 @@
                                             </span>
                                         </h2>
                                         <div class="meta">
-                                            <span class="name">By <span>Jerry</span></span>
-                                            <span class="date has-left-line">2023</span>
+                                            <span class="name">By <span>Admin</span></span>
+                                            <span class="date has-left-line">December 9, 2025</span>
                                         </div>
                                     </div>
                                 </div>

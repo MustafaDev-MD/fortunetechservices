@@ -39,7 +39,7 @@
                         </div>
                         <div class="thumb-text-wrapper">
                             <div class="thumb parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-36.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-44.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="text-wrapper">
                                 <p class="text">There is a specific, hollow feeling when you interact with a product that was built without care. It feels flimsy. It rattles. It leaves you with a lingering sense of distrust. This is the "Technical Debt" that most agencies bury in their contracts. They sell you a shiny exterior, but underneath, the wiring is a rat's nest of shortcuts and compromises. They bank on the fact that you won't notice until after the invoice is paid.
@@ -73,10 +73,10 @@
                         </div>
                         <div class="gallery-wrapper">
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-37.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-45.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-38.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-46.webp') }}" alt="image" data-speed="0.8">
                             </div>
                         </div>
                         <div class="text-wrapper">

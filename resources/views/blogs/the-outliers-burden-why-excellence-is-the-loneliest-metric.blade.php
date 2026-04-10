@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="image-wrapper parallax-view fade-anim">
-                <img class="w-100" src="{{ asset('assets/imgs/gallery/image-35.webp') }}" alt="image" data-speed="0.8">
+                <img class="w-100" src="{{ asset('assets/imgs/gallery/image-59.webp') }}" alt="image" data-speed="0.8">
             </div>
             <div class="container">
                 <div class="section-details fade-anim">
@@ -39,7 +39,7 @@
                         </div>
                         <div class="thumb-text-wrapper">
                             <div class="thumb parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-36.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-60.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="text-wrapper">
                                 <p class="text">"Culture Fit" is often a corporate code word for "don't rock the boat." Companies hire A-Players and then immediately suffocate them with B-Player bureaucracy. They ask for innovation but demand conformity. For the true high-performer, this environment is toxic. You feel the drag of the dead weight. You spend 20% of your energy building the future and 80% of your energy dragging your team across the finish line.
@@ -72,10 +72,10 @@
                         </div>
                         <div class="gallery-wrapper">
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-37.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-61.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-38.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-62.webp') }}" alt="image" data-speed="0.8">
                             </div>
                         </div>
                         <div class="text-wrapper">

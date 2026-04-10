@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="image-wrapper parallax-view fade-anim">
-                <img class="w-100" src="{{ asset('assets/imgs/gallery/image-35.webp') }}" alt="image" data-speed="0.8">
+                <img class="w-100" src="{{ asset('assets/imgs/gallery/image-63.webp') }}" alt="image" data-speed="0.8">
             </div>
             <div class="container">
                 <div class="section-details fade-anim">
@@ -39,7 +39,7 @@
                         </div>
                         <div class="thumb-text-wrapper">
                             <div class="thumb parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-36.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-64.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="text-wrapper">
                                 <p class="text">There is a profound difference between being "innovative" and being "structural." Innovation is often just a fancy word for distraction—a new coat of paint on a crumbling wall. Companies obsess over the latest AI tools or social platforms, thinking that "new" equals "next." But without a core architecture, these tools are just weight. They don't accelerate your growth; they accelerate your collapse. You cannot win a race if your engine is a collection of disconnected parts.
@@ -72,10 +72,10 @@
                         </div>
                         <div class="gallery-wrapper">
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-37.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-65.webp') }}" alt="image" data-speed="0.8">
                             </div>
                             <div class="image parallax-view">
-                                <img src="{{ asset('assets/imgs/gallery/image-38.webp') }}" alt="image" data-speed="0.8">
+                                <img src="{{ asset('assets/imgs/gallery/image-66.webp') }}" alt="image" data-speed="0.8">
                             </div>
                         </div>
                         <div class="text-wrapper">
