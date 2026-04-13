@@ -41,7 +41,7 @@ class ContactController extends Controller
         //          ->replyTo($contact->email);
         // });
 
-        Mail::to('mustafadeveloper57@gmail.com')->send(new ContactMail($contact));
+        Mail::to('connect@fortunetechservices.com')->send(new ContactMail($contact));
 
         return response()->json(['message' => 'Form Submitted successfully']);
     }
