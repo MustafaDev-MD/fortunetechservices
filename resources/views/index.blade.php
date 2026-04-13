@@ -443,7 +443,7 @@
                             </span>
                         </p>
                         <p data-t-throwable-el="">
-                            <span class="client-box bg-theme">
+                            <span class="client-box">
                                 <img src="{{ asset('assets/imgs/client/TAB15-01.svg') }}" alt="image">
                             </span>
                         </p>
@@ -467,11 +467,11 @@
                                 <img src="{{ asset('assets/imgs/client/TAB12-01.svg') }}" alt="image">
                             </span>
                         </p>
-                        <p data-t-throwable-el="">
+                        <!-- <p data-t-throwable-el="">
                             <span class="client-box bg-theme">
                                 <img src="{{ asset('assets/imgs/client/TAB17-01.svg') }}" alt="image">
                             </span>
-                        </p>
+                        </p> -->
                         <p data-t-throwable-el="">
                             <span class="client-box">
                                 <img src="{{ asset('assets/imgs/client/TAB13-01.svg') }}" alt="image">
@@ -483,12 +483,12 @@
                         <!--</span>-->
                         <!--                </p>-->
                         <p data-t-throwable-el="">
-                            <span class="client-box">
+                            <span class="client-box bg-theme">
                                 <img src="{{ asset('assets/imgs/client/TAB14-01.svg') }}" alt="image">
                             </span>
                         </p>
                         <p data-t-throwable-el="">
-                            <span class="client-box">
+                            <span class="client-box bg-theme">
                                 <img src="{{ asset('assets/imgs/client/TAB16-01.svg') }}" alt="image">
                             </span>
                         </p>

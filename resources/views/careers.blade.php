@@ -419,11 +419,11 @@
                                     <img src="{{ asset('assets/imgs/client/TAB16-01.svg') }}" alt="image">
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                                 <div class="client-box">
                                     <img src="{{ asset('assets/imgs/client/TAB17-01.svg') }}" alt="image">
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
